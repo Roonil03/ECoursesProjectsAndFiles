@@ -5,3 +5,9 @@ by Duke University on Coursera
 
  - Present in the branch DukeUniversity_CProgramming_PokerProject
 
+
+
+#2. [Social Media Marketing](https://www.coursera.org/professional-certificates/facebook-social-media-marketing?)
+by META
+
+-Present in the branch META_SocialMediaMarketingProfessionalCertificate
