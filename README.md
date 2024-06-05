@@ -8,6 +8,6 @@ by Duke University on Coursera
 
 
 # 2. [Social Media Marketing](https://www.coursera.org/professional-certificates/facebook-social-media-marketing?)
-by META
+by META on Coursera
 
 -Present in the branch META_SocialMediaMarketingProfessionalCertificate
