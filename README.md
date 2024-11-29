@@ -1,33 +1,6 @@
-List of all the courses and their project that are present in this repository:
+Courses that are present in this specialization:
 
-# 1. [Introductory C Programming Specialization](https://www.coursera.org/specializations/c-programming?)
-by Duke University on Coursera
-
- - Present in the branch DukeUniversity_CProgramming_PokerProject
-
-
-
-# 2. [Social Media Marketing](https://www.coursera.org/professional-certificates/facebook-social-media-marketing?)
-by META on Coursera
-
-- Present in the branch META_SocialMediaMarketingProfessionalCertificate
-
-
-
-# 3.[C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
-by Institut Mines-Télécom and Dartmouth College on Coursera
-
-- Present in the branch DartmouthAndMines-Telecom_CandLinux
-
-
-
-
-# 4.[Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer)
-by META on Coursera
-
--Present in the branch META_BackEndDevProfessionalCertificate
-
-# 5.[C# Programming for Unity Game Development Specialization](https://www.coursera.org/specializations/programming-unity-game-development)
-by University of Colorado on Coursera
-
-- Present in the branch Colorado_CSharpAndUnity
+- Course 1: Introduction to C# Programming and Unity
+- Course 2: More C# Programming and Unity
+- Course 3: C# Class Development
+- Course 4: Intermediate Object-Oriented Programming for Unity Games
