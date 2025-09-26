@@ -22,3 +22,7 @@ by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
 # 5. [C# Programming for Unity Game Development Specialization](https://www.coursera.org/specializations/programming-unity-game-development)
 by [University of Colorado](https://www.cu.edu/) on Coursera
 - Present in the branch [Colorado_CSharpAndUnity](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Colorado_CSharpAndUnity)
+
+# 6. [Programming with Google Go Specialization](https://www.coursera.org/specializations/google-golang)
+by [University of California, Irvine](https://uci.edu/) on Coursera
+- Present in the branch [UCI_ProgWithGoogleGo](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ProgWithGoogleGo)
