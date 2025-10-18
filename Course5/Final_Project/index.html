@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roonil03 - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Roonil03</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="home-icon">
+        <i class="fas fa-home" onclick="scrollToTop()"></i>
+    </div>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="https://m.media-amazon.com/images/I/61gSAgW6zOL._UF894,1000_QL80_.jpg" alt="Roonil03 Profile" id="profile-pic">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h3>Roonil03</h3>
+                    <p>I love doing things that should not be possible. Just why keep staring at work, when you can do it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern web standards</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and modern styling techniques</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+ and modern JavaScript development</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>Component-based UI development</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript development</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database design and management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="E-Commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Task Management App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built using React and Socket.io.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop" alt="Weather Analytics Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Analytics Dashboard</h3>
+                        <p>An interactive weather analytics dashboard that displays real-time weather data with charts and visualizations. Integrated with multiple weather APIs for comprehensive data.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recommendations" class="recommendations-section">
+        <div class="container">
+            <h2>Recommendations</h2>
+            <div class="recommendations-container">
+                <div id="recommendations-list" class="recommendations-list">
+                    <div class="recommendation-card">
+                        <div class="recommendation-header">
+                            <h4>Person 1</h4>
+                            <span>Senior Developer at TechCorp</span>
+                        </div>
+                        <p>"Roonil is an exceptional developer with strong problem-solving skills. His ability to work with complex systems and deliver quality solutions on time is remarkable. He would be a valuable addition to any development team."</p>
+                    </div>
+                    <div class="recommendation-card">
+                        <div class="recommendation-header">
+                            <h4>Person 2</h4>
+                            <span>Project Manager at InnovateLabs</span>
+                        </div>
+                        <p>"Working with Roonil has been a pleasure. His technical expertise combined with excellent communication skills makes him stand out. He consistently delivers high-quality work and is always willing to help team members."</p>
+                    </div>
+                    <div class="recommendation-card">
+                        <div class="recommendation-header">
+                            <h4>Person 3</h4>
+                            <span>UX Designer at CreativeWorks</span>
+                        </div>
+                        <p>"Roonil's attention to detail and user-focused approach to development is impressive. He understands the importance of creating seamless user experiences and translates designs into pixel-perfect implementations."</p>
+                    </div>
+                </div>
+                
+                <div class="add-recommendation">
+                    <h3>Add a Recommendation</h3>
+                    <form id="recommendation-form">
+                        <div class="form-group">
+                            <input type="text" id="recommender-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="recommender-position" placeholder="Your Position/Company" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="recommendation-text" placeholder="Write your recommendation..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit">Submit Recommendation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div class="modal-body">
+                <i class="fas fa-check-circle"></i>
+                <h3>Thank you!</h3>
+                <p>Your recommendation has been added successfully.</p>
+                <button onclick="closePopup()">OK</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
