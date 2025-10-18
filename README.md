@@ -26,3 +26,7 @@ by [University of Colorado](https://www.cu.edu/) on Coursera
 # 6. [Programming with Google Go Specialization](https://www.coursera.org/specializations/google-golang)
 by [University of California, Irvine](https://uci.edu/) on Coursera
 - Present in the branch [UCI_ProgWithGoogleGo](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ProgWithGoogleGo)
+
+# 7. [IBM AI Developer Professional Certificate](https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai)
+by [IBM](https://www.ibm.com/in-en) on Coursera
+- Present in the branch [IBM_AppliedAIProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_AppliedAIProfCert)
