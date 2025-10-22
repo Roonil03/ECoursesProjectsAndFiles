@@ -31,6 +31,6 @@ by [University of California, Irvine](https://uci.edu/) on Coursera
 by [IBM](https://www.ibm.com/in-en) on Coursera
 - Present in the branch [IBM_AppliedAIProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_AppliedAIProfCert)
 
-# 8. [Deep Learning Specialization] (https://www.coursera.org/specializations/deep-learning)
+# 8. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 - Present in the branch [DLSpecialization_DeepLearningAI](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DLSpecialization_DeepLearningAI)
