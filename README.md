@@ -33,4 +33,4 @@ by [IBM](https://www.ibm.com/in-en) on Coursera
 
 # 8. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
-- Present in the branch [DLSpecialization_DeepLearningAI](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DLSpecialization_DeepLearningAI)
+- Present in the branch [DeepLearningAI_DLSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_DLSpecialization)
