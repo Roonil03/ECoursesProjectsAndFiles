@@ -1,0 +1,11 @@
+hdfs dfs -mkdir -p /user/hadoop
+hdfs dfs -ls
+hdfs dfs -copyFromLocal words.txt
+hdfs dfs -ls
+hdfs dfs -cp words.txt words2.txt
+hdfs dfs -ls
+hdfs dfs -copyToLocal words2.txt .
+ls
+hdfs dfs -rm words2.txt
+hdfs dfs -ls
+exit

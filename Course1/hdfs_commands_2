@@ -1,0 +1,10 @@
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar pi
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar pi 10 15
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar wordcount
+hdfs dfs -copyFromLocal words.txt
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.3.6.jar wordcount words.txt out
+hdfs dfs -ls
+hdfs dfs -ls out
+hdfs dfs -copyToLocal out/part-r-00000 local.txt
+exit
