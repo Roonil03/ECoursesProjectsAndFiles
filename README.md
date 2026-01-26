@@ -34,3 +34,7 @@ by [IBM](https://www.ibm.com/in-en) on Coursera
 # 8. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
 by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 - Present in the branch [DeepLearningAI_DLSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_DLSpecialization)
+
+# 9. [Big Data Specialization](https://www.coursera.org/specializations/big-data)
+by [University of California San Diego](https://ucsd.edu/) on Coursera
+- Present in the branch [UCSD_BigDataSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCSD_BigDataSpecialization)
