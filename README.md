@@ -38,3 +38,7 @@ by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 # 9. [Big Data Specialization](https://www.coursera.org/specializations/big-data)
 by [University of California San Diego](https://ucsd.edu/) on Coursera
 - Present in the branch [UCSD_BigDataSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCSD_BigDataSpecialization)
+
+# 10. [Generative Adversarial Networks (GANs) Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
+by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
+- Present in the branch [DeepLearningAI_GANSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_GANSpecialization)
