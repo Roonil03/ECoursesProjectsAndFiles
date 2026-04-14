@@ -42,3 +42,7 @@ by [University of California San Diego](https://ucsd.edu/) on Coursera
 # 10. [Generative Adversarial Networks (GANs) Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
 by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 - Present in the branch [DeepLearningAI_GANSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_GANSpecialization)
+
+# 11. [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
+by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
+- Present in the branch [DeepLearningAI_NLPSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_NLPSpecialization)
