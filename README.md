@@ -46,3 +46,8 @@ by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 # 11. [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
 by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 - Present in the branch [DeepLearningAI_NLPSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_NLPSpecialization)
+
+# 12. [IBM Machine Learning Professional Certificate](https://www.coursera.org/professional-certificates/ibm-machine-learning)
+by [IBM](https://www.ibm.com/in-en) on Coursera
+- Present in the branch [IBM_MLProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_MLProfCert)
+
