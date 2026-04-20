@@ -1,4 +1,4 @@
-Courses present in this course:
+Courses present in this specialization:
 
 1. Natural Language Processing with Classification and Vector Spaces
 2. Natural Language Processing with Probabilistic Models
