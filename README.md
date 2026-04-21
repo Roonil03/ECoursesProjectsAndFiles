@@ -4,12 +4,9 @@ List of all the courses and their project that are present in this repository:
 by [Duke University](https://duke.edu/) on Coursera
  - Present in the branch [DukeUniversity_CProgramming_PokerProject](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DukeUniversity_CProgramming_PokerProject)
 
-
-
 # 2. [Social Media Marketing](https://www.coursera.org/professional-certificates/facebook-social-media-marketing?)
 by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
 - Present in the branch [META_SocialMediaMarketingProfessionalCertificate](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/META_SocialMediaMarketingProfessionalCertificate)
-
 
 # 3. [C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
 by [Institut Mines-Télécom](https://www.imt.fr/fr/) and [Dartmouth College](https://home.dartmouth.edu/) on Coursera
@@ -51,3 +48,6 @@ by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
 by [IBM](https://www.ibm.com/in-en) on Coursera
 - Present in the branch [IBM_MLProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_MLProfCert)
 
+# 13. [Introduction to Research for Essay Writing](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)
+by [University of California, Irvine](https://uci.edu/) on Coursera
+- Present in the branch [UCI_ResearchEssayWriting](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ResearchEssayWriting)
