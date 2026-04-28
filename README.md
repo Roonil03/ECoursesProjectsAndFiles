@@ -51,3 +51,7 @@ by [IBM](https://www.ibm.com/in-en) on Coursera
 # 13. [Introduction to Research for Essay Writing](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)
 by [University of California, Irvine](https://uci.edu/) on Coursera
 - Present in the branch [UCI_ResearchEssayWriting](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ResearchEssayWriting)
+
+# 14. [Object Tracking and Motion Detection with Computer Vision](https://www.coursera.org/learn/object-tracking-and-motion-computer-vision)
+by [MathWorks](https://mathworks.com/) on Coursera
+- Present in the branch [MathWorks_ObjTrackAndMotionDetectWithCV](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/MathWorks_ObjTrackAndMotionDetectWithCV)
