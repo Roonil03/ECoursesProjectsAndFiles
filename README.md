@@ -55,3 +55,7 @@ by [University of California, Irvine](https://uci.edu/) on Coursera
 # 14. [Object Tracking and Motion Detection with Computer Vision](https://www.coursera.org/learn/object-tracking-and-motion-computer-vision)
 by [MathWorks](https://mathworks.com/) on Coursera
 - Present in the branch [MathWorks_ObjTrackAndMotionDetectWithCV](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/MathWorks_ObjTrackAndMotionDetectWithCV)
+
+# 15. [Problem Solving, Python Programming, and Video Games](https://www.coursera.org/learn/problem-solving-programming-video-games)
+by [University of Alberta](https://www.ualberta.ca/en/index.html) on Coursera
+- Present in the branch [UniOfAlberta_PSPythonAndVideoGames](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniOfAlberta_PSPythonAndVideoGames)
