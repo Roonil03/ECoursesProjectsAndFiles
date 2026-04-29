@@ -1,61 +1,9 @@
-List of all the courses and their project that are present in this repository:
+Topics covered in the course:
 
-# 1. [Introductory C Programming Specialization](https://www.coursera.org/specializations/c-programming?)
-by [Duke University](https://duke.edu/) on Coursera
- - Present in the branch [DukeUniversity_CProgramming_PokerProject](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DukeUniversity_CProgramming_PokerProject)
+1.  Take a new computational problem and solve it, using several problem solving techniques including abstraction and problem decomposition.
+2.  Follow a design creation process that includes: descriptions, test plans, and algorithms.
+3.  Code, test, and debug a program in Python, based on your design.
 
-# 2. [Social Media Marketing](https://www.coursera.org/professional-certificates/facebook-social-media-marketing?)
-by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
-- Present in the branch [META_SocialMediaMarketingProfessionalCertificate](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/META_SocialMediaMarketingProfessionalCertificate)
-
-# 3. [C Programming with Linux Specialization](https://www.coursera.org/specializations/c-programming-linux)
-by [Institut Mines-Télécom](https://www.imt.fr/fr/) and [Dartmouth College](https://home.dartmouth.edu/) on Coursera
-- Present in the branch [DartmouthAndMines-Telecom_CandLinux](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DartmouthAndMines-Telecom_CandLinux)
-
-# 4. [Back-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-back-end-developer)
-by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
-- Present in the branch [META_BackEndDevProfessionalCertificate](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/META_BackEndDevProfessionalCertificate)
-
-# 5. [C# Programming for Unity Game Development Specialization](https://www.coursera.org/specializations/programming-unity-game-development)
-by [University of Colorado](https://www.cu.edu/) on Coursera
-- Present in the branch [Colorado_CSharpAndUnity](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Colorado_CSharpAndUnity)
-
-# 6. [Programming with Google Go Specialization](https://www.coursera.org/specializations/google-golang)
-by [University of California, Irvine](https://uci.edu/) on Coursera
-- Present in the branch [UCI_ProgWithGoogleGo](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ProgWithGoogleGo)
-
-# 7. [IBM AI Developer Professional Certificate](https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai)
-by [IBM](https://www.ibm.com/in-en) on Coursera
-- Present in the branch [IBM_AppliedAIProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_AppliedAIProfCert)
-
-# 8. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
-by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
-- Present in the branch [DeepLearningAI_DLSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_DLSpecialization)
-
-# 9. [Big Data Specialization](https://www.coursera.org/specializations/big-data)
-by [University of California San Diego](https://ucsd.edu/) on Coursera
-- Present in the branch [UCSD_BigDataSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCSD_BigDataSpecialization)
-
-# 10. [Generative Adversarial Networks (GANs) Specialization](https://www.coursera.org/specializations/generative-adversarial-networks-gans)
-by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
-- Present in the branch [DeepLearningAI_GANSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_GANSpecialization)
-
-# 11. [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
-by [DeepLearningAI](https://www.deeplearning.ai/) on Coursera
-- Present in the branch [DeepLearningAI_NLPSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/DeepLearningAI_NLPSpecialization)
-
-# 12. [IBM Machine Learning Professional Certificate](https://www.coursera.org/professional-certificates/ibm-machine-learning)
-by [IBM](https://www.ibm.com/in-en) on Coursera
-- Present in the branch [IBM_MLProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/IBM_MLProfCert)
-
-# 13. [Introduction to Research for Essay Writing](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)
-by [University of California, Irvine](https://uci.edu/) on Coursera
-- Present in the branch [UCI_ResearchEssayWriting](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UCI_ResearchEssayWriting)
-
-# 14. [Object Tracking and Motion Detection with Computer Vision](https://www.coursera.org/learn/object-tracking-and-motion-computer-vision)
-by [MathWorks](https://mathworks.com/) on Coursera
-- Present in the branch [MathWorks_ObjTrackAndMotionDetectWithCV](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/MathWorks_ObjTrackAndMotionDetectWithCV)
-
-# 15. [Problem Solving, Python Programming, and Video Games](https://www.coursera.org/learn/problem-solving-programming-video-games)
-by [University of Alberta](https://www.ualberta.ca/en/index.html) on Coursera
-- Present in the branch [UniOfAlberta_PSPythonAndVideoGames](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniOfAlberta_PSPythonAndVideoGames)
+Games made:
+- Hacking Minigame
+- Poke the Dots Game
