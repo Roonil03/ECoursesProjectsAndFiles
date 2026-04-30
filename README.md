@@ -59,3 +59,7 @@ by [MathWorks](https://mathworks.com/) on Coursera
 # 15. [Problem Solving, Python Programming, and Video Games](https://www.coursera.org/learn/problem-solving-programming-video-games)
 by [University of Alberta](https://www.ualberta.ca/en/index.html) on Coursera
 - Present in the branch [UniOfAlberta_PSPythonAndVideoGames](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniOfAlberta_PSPythonAndVideoGames)
+
+# 16. [Avatar Psychology for Designers](https://www.coursera.org/learn/avatar-psychology-for-designers)
+by [Michigan State University](https://msu.edu/) on Coursera
+- Present in the branch [MSU_AvatarPsychology](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/MSU_AvatarPsychology)
