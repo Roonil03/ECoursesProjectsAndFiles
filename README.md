@@ -63,3 +63,7 @@ by [University of Alberta](https://www.ualberta.ca/en/index.html) on Coursera
 # 16. [Avatar Psychology for Designers](https://www.coursera.org/learn/avatar-psychology-for-designers)
 by [Michigan State University](https://msu.edu/) on Coursera
 - Present in the branch [MSU_AvatarPsychology](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/MSU_AvatarPsychology)
+
+# # 17. [Astronomy: Exploring Time and Space](https://www.coursera.org/learn/astro)
+by [The University of Arizona](https://www.arizona.edu/) on Coursera
+- Present in the branch [UniArizona_Astronomy](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniArizona_Astronomy)
