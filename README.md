@@ -67,3 +67,7 @@ by [Michigan State University](https://msu.edu/) on Coursera
 # 17. [Astronomy: Exploring Time and Space](https://www.coursera.org/learn/astro)
 by [The University of Arizona](https://www.arizona.edu/) on Coursera
 - Present in the branch [UniArizona_Astronomy](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniArizona_Astronomy)
+
+# 18. [Astrobiology: Exploring Other Worldse](https://www.coursera.org/learn/astrobiology-exploring-other-worlds)
+by [The University of Arizona](https://www.arizona.edu/) on Coursera
+- Present in the branch [UniArizona_Astronomy](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniArizona_Astrobiology)
