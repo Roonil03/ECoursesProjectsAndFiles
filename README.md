@@ -71,3 +71,7 @@ by [The University of Arizona](https://www.arizona.edu/) on Coursera
 # 18. [Astrobiology: Exploring Other Worldse](https://www.coursera.org/learn/astrobiology-exploring-other-worlds)
 by [The University of Arizona](https://www.arizona.edu/) on Coursera
 - Present in the branch [UniArizona_Astronomy](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniArizona_Astrobiology)
+
+# 19. [JavaScript, jQuery, and JSON](https://www.coursera.org/learn/javascript-jquery-json)
+by [University of Michigan](https://umich.edu/) on Coursera
+- Present in the branch [UniMichigan_JSJqueryJSON](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniMichigan_JSJqueryJSON)
