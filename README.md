@@ -79,3 +79,7 @@ by [University of Michigan](https://umich.edu/) on Coursera
 # 20. [Build a Memory Game in React](https://www.coursera.org/learn/build-a-memory-game-in-react)
 by [Scrimba](https://scrimba.com/) on Coursera
 - Present in the branch [Scrimba_MemoryGame](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Scrimba_MemoryGame)
+
+# 21. [Go Programming Language Specialization](https://www.coursera.org/specializations/go-programming-language)
+by [Edureka](https://www.edureka.co/) on Coursera
+- Present in the branch [Edureka_GoProg](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Edureka_GoProg)
