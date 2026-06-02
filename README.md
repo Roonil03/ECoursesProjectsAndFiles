@@ -75,3 +75,7 @@ by [The University of Arizona](https://www.arizona.edu/) on Coursera
 # 19. [JavaScript, jQuery, and JSON](https://www.coursera.org/learn/javascript-jquery-json)
 by [University of Michigan](https://umich.edu/) on Coursera
 - Present in the branch [UniMichigan_JSJqueryJSON](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/UniMichigan_JSJqueryJSON)
+
+# 20. [Build a Memory Game in React](https://www.coursera.org/learn/build-a-memory-game-in-react)
+by [Scrimba](https://scrimba.com/) on Coursera
+- Present in the branch [Scrimba_MemoryGame](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Scrimba_MemoryGame)
