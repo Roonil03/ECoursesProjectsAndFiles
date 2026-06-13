@@ -83,3 +83,7 @@ by [Scrimba](https://scrimba.com/) on Coursera
 # 21. [Go Programming Language Specialization](https://www.coursera.org/specializations/go-programming-language)
 by [Edureka](https://www.edureka.co/) on Coursera
 - Present in the branch [Edureka_GoProg](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Edureka_GoProg)
+
+# 22. [Learn React Hooks: Build a Tic Tac Toe Game](https://www.coursera.org/learn/learn-react-hooks-build-a-tic-tac-toe-game)
+by [Scrimba](https://scrimba.com/) on Coursera
+- Present in the branch [Scrimba_ReactHooksTicTacToe](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Scrimba_ReactHooksTicTacToe)
