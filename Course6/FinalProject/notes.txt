@@ -1,0 +1,17 @@
+Credentials for LittleLemon API:
+
+Superuser (Admin):
+Username: admin
+Password: adminpass123
+
+Manager:
+Username: manager1
+Password: managerpass123
+
+Delivery Crew:
+Username: delivery1
+Password: deliverypass123
+
+Customer:
+Username: customer1
+Password: customerpass123

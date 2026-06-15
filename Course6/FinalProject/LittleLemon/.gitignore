@@ -1,0 +1,23 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+Pipfile.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+db.sqlite3
+*.log
+local_settings.py
+
+# Env
+.env
+
+# IDE
+.vscode/
+.idea/
