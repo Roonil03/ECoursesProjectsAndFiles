@@ -1,0 +1,34 @@
+# Ignore the virtual environment directories downloaded from the container
+**/venv/
+**/env/
+
+# Python cache and byte-compiled files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Local Databases (sqlite and MySQL container dumps)
+**/db.sqlite3
+**/db.sqlite3-journal
+lemonProject/var/lib/mysql/
+**/learner_mysql/
+
+# Nginx and Coursera internal proxy settings
+lemonProject/home/nginx/
+lemonProject/home/coder/coursera/
+lemonProject/home/coder/.local/
+lemonProject/home/coder/.cache/
+
+# Environment variables
+**/.env
+**/.env.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+**/*.swp
+**/*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
