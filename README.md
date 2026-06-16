@@ -87,3 +87,7 @@ by [Edureka](https://www.edureka.co/) on Coursera
 # 22. [Learn React Hooks: Build a Tic Tac Toe Game](https://www.coursera.org/learn/learn-react-hooks-build-a-tic-tac-toe-game)
 by [Scrimba](https://scrimba.com/) on Coursera
 - Present in the branch [Scrimba_ReactHooksTicTacToe](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Scrimba_ReactHooksTicTacToe)
+
+# 23. [Google Cybersecurity Professional Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity)
+by [Google](https://about.google/) on Coursera
+- Present in the branch [Google_CybersecProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Google_CybersecProfCert)
