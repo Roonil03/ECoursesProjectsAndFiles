@@ -95,3 +95,7 @@ by [Google](https://about.google/) on Coursera
 # 24. [Advanced Java](https://www.coursera.org/learn/advanced-java)
 by [LearnQuest](https://www.learnquest.com/) on Coursera
 - Present in the branch [LearnQuest_AdvancedJava](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/LearnQuest_AdvancedJava)
+
+# 25. [Kotlin for Java Developers](https://www.coursera.org/learn/kotlin-for-java-developers)
+by [JetBrains](https://www.jetbrains.com/) on Coursera
+- Present in the branch [JetBrains_KotlinForJavaDevs](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/JetBrains_KotlinForJavaDevs)
