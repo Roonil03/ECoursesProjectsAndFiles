@@ -1,0 +1,17 @@
+# Environment Isolation
+venv/
+.env
+
+# Maven Build Artifacts
+target/
+*.jar
+*.war
+*.ear
+
+# IDE & Metadata configurations
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store

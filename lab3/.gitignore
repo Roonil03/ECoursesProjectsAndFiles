@@ -1,0 +1,17 @@
+# Local Environment Isolation
+venv/
+.env
+
+# Compiled Java Classes & Build Artifacts
+target/
+*.class
+*.jar
+*.war
+
+# IDE / Environment Tracking Data
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store

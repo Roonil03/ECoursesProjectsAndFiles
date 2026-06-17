@@ -1,0 +1,17 @@
+# Project Specific Isolation
+venv/
+.env
+
+# Compilation Contexts & Distribution Packs
+target/
+*.class
+*.jar
+*.war
+
+# IDE Ecosystem Metadata Files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
