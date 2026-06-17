@@ -91,3 +91,7 @@ by [Scrimba](https://scrimba.com/) on Coursera
 # 23. [Google Cybersecurity Professional Certificate](https://www.coursera.org/professional-certificates/google-cybersecurity)
 by [Google](https://about.google/) on Coursera
 - Present in the branch [Google_CybersecProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Google_CybersecProfCert)
+
+# 24. [Advanced Java](https://www.coursera.org/learn/advanced-java)
+by [LearnQuest](https://www.learnquest.com/) on Coursera
+- Present in the branch [LearnQuest_AdvancedJava](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/LearnQuest_AdvancedJava)
