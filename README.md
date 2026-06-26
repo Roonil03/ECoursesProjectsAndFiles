@@ -99,3 +99,7 @@ by [LearnQuest](https://www.learnquest.com/) on Coursera
 # 25. [Kotlin for Java Developers](https://www.coursera.org/learn/kotlin-for-java-developers)
 by [JetBrains](https://www.jetbrains.com/) on Coursera
 - Present in the branch [JetBrains_KotlinForJavaDevs](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/JetBrains_KotlinForJavaDevs)
+
+# # 26. [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer)
+by [META]((https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
+- Present in the branch [Meta_FrontEndDevProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Meta_FrontEndDevProfCert)
