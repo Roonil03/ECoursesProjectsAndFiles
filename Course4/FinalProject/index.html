@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Little Lemon Restaurant | Chicago</title>
+  <meta name="description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta name="keywords" content="Little Lemon, Mediterranean restaurant, Chicago dining, Greek food, Italian food">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Markazi+Text:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo-container">
+      <a href="index.html" class="logo">
+        <svg class="logo-mark" viewBox="0 0 100 100" width="48" height="48" aria-hidden="true">
+          <circle cx="50" cy="50" r="45" fill="#F4CE14"/>
+          <path d="M30 50 Q50 20 70 50 Q50 80 30 50 Z" fill="#495E57"/>
+        </svg>
+        <span class="logo-text">Little Lemon</span>
+      </a>
+    </div>
+    <nav class="main-nav" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#reservations" class="nav-link">Reservations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="promo-banner" aria-labelledby="banner-heading">
+      <div class="banner-content">
+        <h1 id="banner-heading" class="banner-title">Little Lemon Chicago</h1>
+        <p class="banner-subtitle">We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+        <div class="banner-actions">
+          <a href="#reservations" class="btn btn-primary">Reserve a Table</a>
+          <a href="#menu" class="btn btn-secondary">Online Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section" aria-labelledby="featured-heading">
+      <div class="section-intro">
+        <h2 id="featured-heading">Weekly Specials</h2>
+        <p>Handcrafted Mediterranean dishes prepared with locally sourced ingredients.</p>
+      </div>
+      <div class="articles-container">
+        <article class="food-card">
+          <div class="card-image-wrapper">
+            <svg class="placeholder-img" viewBox="0 0 400 260" width="100%" height="220" aria-label="Greek Salad dish">
+              <rect width="400" height="260" fill="#EDEFEE"/>
+              <circle cx="200" cy="130" r="70" fill="#495E57" opacity="0.15"/>
+              <path d="M170 130 L200 100 L230 130 L200 160 Z" fill="#F4CE14"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Greek Salad</h3>
+              <span class="card-price">$12.99</span>
+            </div>
+            <p class="card-desc">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
+            <a href="#order" class="card-btn">Order Delivery</a>
+          </div>
+        </article>
+
+        <article class="food-card">
+          <div class="card-image-wrapper">
+            <svg class="placeholder-img" viewBox="0 0 400 260" width="100%" height="220" aria-label="Bruschetta dish">
+              <rect width="400" height="260" fill="#EDEFEE"/>
+              <circle cx="200" cy="130" r="70" fill="#495E57" opacity="0.15"/>
+              <circle cx="200" cy="130" r="40" fill="#EE9972"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Bruschetta</h3>
+              <span class="card-price">$7.99</span>
+            </div>
+            <p class="card-desc">Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. Topped with fresh tomatoes.</p>
+            <a href="#order" class="card-btn">Order Delivery</a>
+          </div>
+        </article>
+
+        <article class="food-card">
+          <div class="card-image-wrapper">
+            <svg class="placeholder-img" viewBox="0 0 400 260" width="100%" height="220" aria-label="Lemon Dessert dish">
+              <rect width="400" height="260" fill="#EDEFEE"/>
+              <circle cx="200" cy="130" r="70" fill="#495E57" opacity="0.15"/>
+              <ellipse cx="200" cy="130" rx="50" ry="35" fill="#F4CE14"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3 class="card-title">Lemon Dessert</h3>
+              <span class="card-price">$6.99</span>
+            </div>
+            <p class="card-desc">This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
+            <a href="#order" class="card-btn">Order Delivery</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-grid">
+      <div class="footer-left">
+        <a href="index.html" class="footer-logo">
+          <svg viewBox="0 0 100 100" width="36" height="36" aria-hidden="true">
+            <circle cx="50" cy="50" r="45" fill="#F4CE14"/>
+            <path d="M30 50 Q50 20 70 50 Q50 80 30 50 Z" fill="#495E57"/>
+          </svg>
+          <span>Little Lemon</span>
+        </a>
+      </div>
+      <div class="footer-right">
+        <p class="copyright">&copy; 2026 Little Lemon Restaurant. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
