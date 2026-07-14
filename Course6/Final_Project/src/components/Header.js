@@ -12,23 +12,19 @@ import { Box, HStack } from "@chakra-ui/react";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto:janedoe6969@example.com",
+    url: "mailto:google@example.com",
   },
   {
     icon: faGithub,
-    url: "https://github.com/janedoe6969",
+    url: "https://github.com/google",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/in/janedoe6969",
+    url: "https://www.linkedin.com/in/google",
   },
   {
     icon: faMedium,
-    url: "https://medium.com/@janedoe6969",
-  },
-  {
-    icon: faStackOverflow,
-    url: "https://stackoverflow.com/users/janedoe6969",
+    url: "https://medium.com/@google",
   },
 ];
 
@@ -44,7 +40,7 @@ const Header = () => {
       if (!headerElement) {
         return;
       }
-      if (prevScrollPos > currentScrollPos) {
+      if (prevScrollPos > currentScrollPos || currentScrollPos <= 0) {
         headerElement.style.transform = "translateY(0)";
       } else {
         headerElement.style.transform = "translateY(-200px)";
@@ -59,7 +55,8 @@ const Header = () => {
     };
   }, []);
 
-  const handleClick = (anchor) => () => {
+  const handleClick = (anchor) => (event) => {
+    event.preventDefault();
     const id = `${anchor}-section`;
     const element = document.getElementById(id);
     if (element) {
@@ -82,6 +79,7 @@ const Header = () => {
       transitionTimingFunction="ease-in-out"
       backgroundColor="#18181b"
       ref={headerRef}
+      zIndex={1000}
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
