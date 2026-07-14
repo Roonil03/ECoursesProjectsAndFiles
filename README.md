@@ -103,3 +103,7 @@ by [JetBrains](https://www.jetbrains.com/) on Coursera
 # 26. [Meta Front-End Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-front-end-developer)
 by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
 - Present in the branch [Meta_FrontEndDevProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Meta_FrontEndDevProfCert)
+
+# 27. [Meta Android Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-android-developer)
+by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
+- Present in the branch [Meta_AndroidDevProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Meta_AndroidDevProfCert)
