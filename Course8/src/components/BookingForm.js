@@ -75,61 +75,63 @@ function BookingForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate aria-label="Table Reservation Form">
-      <h2>Reserve a Table</h2>
-      
-      <div className="form-group">
-        <label htmlFor="name">Full Name</label>
-        <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} aria-required="true" aria-invalid={!!errors.name} />
-        {errors.name && <span className="error" role="alert">{errors.name}</span>}
-      </div>
+      <fieldset className="form-fieldset">
+        <legend><h2>Reserve a Table</h2></legend>
+        
+        <div className="form-group">
+          <label htmlFor="name">Full Name</label>
+          <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} aria-required="true" aria-invalid={!!errors.name} />
+          {errors.name && <span className="error" role="alert">{errors.name}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="email">Email Address</label>
-        <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} aria-required="true" aria-invalid={!!errors.email} />
-        {errors.email && <span className="error" role="alert">{errors.email}</span>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="email">Email Address</label>
+          <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} aria-required="true" aria-invalid={!!errors.email} />
+          {errors.email && <span className="error" role="alert">{errors.email}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} aria-required="true" aria-invalid={!!errors.phone} />
-        {errors.phone && <span className="error" role="alert">{errors.phone}</span>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} aria-required="true" aria-invalid={!!errors.phone} />
+          {errors.phone && <span className="error" role="alert">{errors.phone}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="date">Choose Date</label>
-        <input type="date" id="date" name="date" value={formData.date} onChange={handleChange} aria-required="true" aria-invalid={!!errors.date} />
-        {errors.date && <span className="error" role="alert">{errors.date}</span>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="date">Choose Date</label>
+          <input type="date" id="date" name="date" value={formData.date} onChange={handleChange} aria-required="true" aria-invalid={!!errors.date} />
+          {errors.date && <span className="error" role="alert">{errors.date}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="time">Choose Time</label>
-        <select id="time" name="time" value={formData.time} onChange={handleChange} aria-required="true" aria-invalid={!!errors.time}>
-          <option value="">Select Time</option>
-          <option value="17:00">5:00 PM</option>
-          <option value="18:00">6:00 PM</option>
-          <option value="19:00">7:00 PM</option>
-          <option value="20:00">8:00 PM</option>
-          <option value="21:00">9:00 PM</option>
-        </select>
-        {errors.time && <span className="error" role="alert">{errors.time}</span>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="time">Choose Time</label>
+          <select id="time" name="time" value={formData.time} onChange={handleChange} aria-required="true" aria-invalid={!!errors.time}>
+            <option value="">Select Time</option>
+            <option value="17:00">5:00 PM</option>
+            <option value="18:00">6:00 PM</option>
+            <option value="19:00">7:00 PM</option>
+            <option value="20:00">8:00 PM</option>
+            <option value="21:00">9:00 PM</option>
+          </select>
+          {errors.time && <span className="error" role="alert">{errors.time}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="guests">Number of Guests</label>
-        <input type="number" id="guests" name="guests" min="1" max="10" value={formData.guests} onChange={handleChange} aria-required="true" aria-invalid={!!errors.guests} />
-        {errors.guests && <span className="error" role="alert">{errors.guests}</span>}
-      </div>
+        <div className="form-group">
+          <label htmlFor="guests">Number of Guests</label>
+          <input type="number" id="guests" name="guests" min="1" max="10" value={formData.guests} onChange={handleChange} aria-required="true" aria-invalid={!!errors.guests} />
+          {errors.guests && <span className="error" role="alert">{errors.guests}</span>}
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="occasion">Occasion</label>
-        <select id="occasion" name="occasion" value={formData.occasion} onChange={handleChange}>
-          <option value="None">None</option>
-          <option value="Birthday">Birthday</option>
-          <option value="Anniversary">Anniversary</option>
-        </select>
-      </div>
+        <div className="form-group">
+          <label htmlFor="occasion">Occasion</label>
+          <select id="occasion" name="occasion" value={formData.occasion} onChange={handleChange}>
+            <option value="None">None</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Anniversary">Anniversary</option>
+          </select>
+        </div>
 
-      <button type="submit" disabled={isSubmitDisabled} aria-label="Submit Reservation">Book Now</button>
+        <button type="submit" disabled={isSubmitDisabled} aria-label="Submit Reservation - Book Now">Book Now</button>
+      </fieldset>
     </form>
   );
 }

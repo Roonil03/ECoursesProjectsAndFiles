@@ -11,8 +11,21 @@ body {
   line-height: 1.6;
 }
 
-header, nav, main, section, footer {
+header, nav, main, section, article, footer, fieldset {
   display: block;
+  width: 100%;
+}
+
+fieldset.form-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+legend {
   width: 100%;
 }
 

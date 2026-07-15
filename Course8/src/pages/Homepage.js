@@ -3,15 +3,15 @@ import React from 'react';
 function Homepage() {
   return (
     <section className="homepage" aria-label="Restaurant Hero Banner">
-      <div className="hero-banner">
-        <div>
+      <article className="hero-banner">
+        <header>
           <h2>Little Lemon Chicago</h2>
           <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-        </div>
+        </header>
         <div>
           <a href="#booking" className="cta-button">Reserve a Table</a>
         </div>
-      </div>
+      </article>
     </section>
   );
 }
