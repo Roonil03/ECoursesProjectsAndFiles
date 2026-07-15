@@ -107,3 +107,7 @@ by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
 # 27. [Meta Android Developer Professional Certificate](https://www.coursera.org/professional-certificates/meta-android-developer)
 by [META](https://en.wikipedia.org/wiki/Meta_Platforms) on Coursera
 - Present in the branch [Meta_AndroidDevProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Meta_AndroidDevProfCert)
+
+# 28. [Amazon Junior Software Developer Professional Certificate](https://www.coursera.org/professional-certificates/amazon-junior-software-developer)
+by [Amazon](https://www.aboutamazon.com/about-us) on Coursera
+- Present in the branch [Amazon_JuniorSoftwareDevProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Amazon_JuniorSoftwareDevProfCert)
