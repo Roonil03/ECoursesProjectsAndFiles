@@ -1,0 +1,1 @@
+create table users(id long auto_increment, username varchar2(25) not null,password varchar2(25) not null,role varchar2(15) not null, primary key(id))
