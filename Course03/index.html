@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Frontend Developer Portfolio showcasing engineering skills, software projects, and interactive applications.">
+    <title>Developer Portfolio | Frontend Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DevPortfolio</div>
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu" aria-controls="primary-nav" aria-expanded="false">
+            &#9776;
+        </button>
+        <nav id="primary-nav" role="navigation" aria-label="Main Directory">
+            <ul>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a frontend developer specializing in building highly performant, accessible, and user-centric web applications. I combine modern layout engineering practices with clean architectural scripts to deliver exceptional software systems.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-category="all">All Modules</button>
+                    <button class="filter-btn" data-category="core">Core Engineering</button>
+                    <button class="filter-btn" data-category="ui">UI Systems</button>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card" data-category="core">
+                        <figure>
+                            <img src="https://picsum.photos/id/180/400/250" alt="Interface displaying data analytics nodes and relational database schema pipelines.">
+                            <figcaption>Enterprise Analytics Suite</figcaption>
+                        </figure>
+                        <h3>Data Automation Engine</h3>
+                        <p>A cloud-connected management pipeline designed to structure real-time streaming operations safely.</p>
+                    </article>
+
+                    <article class="project-card" data-category="ui">
+                        <figure>
+                            <img src="https://picsum.photos/id/119/400/250" alt="Design configuration system rendering visual components across varied screen boundaries.">
+                            <figcaption>Modular Design Interface</figcaption>
+                        </figure>
+                        <h3>Design System Architecture</h3>
+                        <p>A comprehensive toolkit built to scale CSS components fluidly across production environments.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Technical Proficiencies</h2>
+                <ul class="skills-list">
+                    <li class="skill-item">Semantic HTML5 Layout Engine</li>
+                    <li class="skill-item">Responsive CSS Grid & Flexbox Architectures</li>
+                    <li class="skill-item">Modern JavaScript Execution Contexts</li>
+                    <li class="skill-item">Asynchronous Resource Pipelines & API Processing</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label var-label for="user-name">Full Name</label>
+                        <input type="text" id="user-name" name="name" required placeholder="Jane Doe">
+                        <span class="error-msg" id="name-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form-group">
+                        <label var-label for="user-email">Email Address</label>
+                        <input type="email" id="user-email" name="email" required placeholder="jane.doe@example.com">
+                        <span class="error-msg" id="email-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form-group">
+                        <label var-label for="user-message">Message Details</label>
+                        <textarea id="user-message" name="message" required placeholder="Enter the details of your project context..."></textarea>
+                        <span class="error-msg" id="message-error" aria-live="polite"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                    <div id="form-status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Frontend Engineering Portfolio. Built to satisfy standard accessibility and responsiveness benchmarks.</p>
+    </footer>
+
+    <div id="lightbox-modal" class="modal" role="dialog" aria-hidden="true" aria-label="Image Preview Frame">
+        <button class="modal-close" aria-label="Close View Frame">&times;</button>
+        <img class="modal-content" id="modal-img" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
