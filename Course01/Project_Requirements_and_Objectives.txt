@@ -1,0 +1,18 @@
+Project Requirements and Objectives: Student Grade Management System
+
+1. Functional Requirements:
+- The system shall allow users to create and store unique student profiles containing a Name and a Student ID.
+- The system shall enable users to assign multiple numeric grades to specific subjects for any existing student.
+- The system shall dynamically calculate the mathematical average of all assigned grades for an individual student.
+- The system shall output a comprehensive terminal record displaying student details, individual subject grades, and their calculated grade average.
+- The system shall validate user inputs to reject duplicate student IDs, out-of-bounds grades (outside 0-100), and invalid menu choices.
+
+2. Non-Functional Requirements:
+- Usability: The application must feature a straightforward, text-based interactive command-line interface (CLI) that requires no prior training to navigate.
+- Reliability: The system must handle incorrect inputs (such as text entered into numeric fields) gracefully without crashing.
+- Portability: The application shall be built on the .NET framework using C#, making it compatible across environments supporting the .NET runtime.
+
+3. Project Objectives:
+- To build a modular, well-structured console application using C# that successfully solves data management and processing tasks.
+- To enforce code reusability by implementing dedicated methods for discrete business logic rules.
+- To apply clean control flows (loops and conditionals) to manage application execution cycles and secure data integrity.

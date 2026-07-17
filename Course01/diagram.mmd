@@ -1,0 +1,25 @@
+graph TD
+    Start([Start Application]) --> Init[Initialize Student List]
+    Init --> Menu{While App Running: Display Menu}
+    
+    Menu -->|Choice 1| AddStu[Method: AddStudent]
+    Menu -->|Choice 2| AddGrade[Method: AddGrade]
+    Menu -->|Choice 3| CalcAvg[Method: CalculateAverage]
+    Menu -->|Choice 4| DispRec[Method: DisplayRecords]
+    Menu -->|Choice 5| ExitApp([Exit Program])
+    
+    AddStu --> IDCheck{If ID Already Exists?}
+    IDCheck -->|Yes| ShowError1[Display Error Message] --> Menu
+    IDCheck -->|No| SaveStu[Save Name & ID to List] --> Menu
+    
+    AddGrade --> ExistCheck{If Student Exists?}
+    ExistCheck -->|No| ShowError2[Display Student Not Found] --> Menu
+    ExistCheck -->|Yes| InputGrade[Input Subject & Score]
+    InputGrade --> RangeCheck{If Score between 0 and 100?}
+    RangeCheck -->|No| ShowError3[Display Invalid Grade] --> Menu
+    RangeCheck -->|Yes| SaveGrade[Append Grade to Student Record] --> Menu
+    
+    CalcAvg --> LoopAvg[For Each Grade: Sum and Divide]
+    LoopAvg --> PrintAvg[Output Calculated Average] --> Menu
+    
+    DispRec --> PrintAll[Foreach Loop: Print Name, ID, Grades, and Averages] --> Menu
