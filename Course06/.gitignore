@@ -1,0 +1,7 @@
+.vscode/
+.idea/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.sql.bak
