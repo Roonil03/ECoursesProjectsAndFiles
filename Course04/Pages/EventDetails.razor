@@ -1,0 +1,40 @@
+@page "/event/{Id:int}"
+@using EventEase.Models
+
+<div class="container mt-4">
+    @if (currentEvent == null)
+    {
+        <div class="alert alert-danger">Event not found in records.</div>
+    }
+    else
+    {
+        <div class="card p-4">
+            <h2>@currentEvent.Name</h2>
+            <hr />
+            <p><strong>Scheduled Date:</strong> @currentEvent.Date.ToLongDateString()</p>
+            <p><strong>Venue Location:</strong> @currentEvent.Location</p>
+            <p class="text-muted">Join industry leaders for this premium corporate experience.</p>
+            <div class="mt-3">
+                <a href="/" class="btn btn-secondary">Back to List</a>
+                <a href="/register/@currentEvent.Id" class="btn btn-success ms-2">Register For This Event</a>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private Event? currentEvent;
+
+    private List<Event> mockEvents = new()
+    {
+        new Event { Id = 1, Name = "Tech Innovation Summit", Date = DateTime.Now.AddDays(14), Location = "San Francisco, CA" },
+        new Event { Id = 2, Name = "Corporate Leadership Gala", Date = DateTime.Now.AddDays(30), Location = "Chicago, IL" },
+        new Event { Id = 3, Name = "Annual Charity Fundraiser", Date = DateTime.Now.AddDays(45), Location = "New York, NY" }
+    };
+
+    protected override void OnParametersSet()
+    {
+        currentEvent = mockEvents.Find(e => e.Id == Id);
+    }
+}

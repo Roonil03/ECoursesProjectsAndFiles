@@ -1,0 +1,49 @@
+@page "/register/{EventId:int}"
+@using EventEase.Models
+@inject EventEase.Services.UserSessionService Session
+@inject NavigationManager Navigation
+
+<div class="container mt-4">
+    <div class="card p-4 mx-auto" style="max-width: 500px;">
+        <h3>Event Registration</h3>
+        <p class="text-muted">Securing your seat for Event ID: @EventId</p>
+
+        <EditForm Model="@regModel" OnValidSubmit="HandleValidSubmit">
+            <DataAnnotationsValidator />
+            
+            <div class="mb-3">
+                <label class="form-label">Your Full Name</label>
+                <InputText class="form-control" @bind-Value="regModel.Name" />
+                <ValidationMessage For="@(() => regModel.Name)" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email Address</label>
+                <InputText class="form-control" @bind-Value="regModel.Email" />
+                <ValidationMessage For="@(() => regModel.Email)" class="text-danger" />
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Confirm Registration</button>
+        </EditForm>
+
+        @if (isSuccess)
+        {
+            <div class="alert alert-success mt-3 text-center">Registration successfully confirmed!</div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public int EventId { get; set; }
+    private RegistrationModel regModel = new();
+    private bool isSuccess = false;
+
+    private async Task HandleValidSubmit()
+    {
+        Session.SetUserSession(regModel.Name);
+        Session.IncrementAttendance(EventId);
+        isSuccess = true;
+        await Task.Delay(1500);
+        Navigation.NavigateTo("/");
+    }
+}

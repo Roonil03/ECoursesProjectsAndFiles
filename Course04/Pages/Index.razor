@@ -1,0 +1,41 @@
+@page "/"
+@using EventEase.Models
+@using EventEase.Shared
+@inject EventEase.Services.UserSessionService Session
+
+<div class="container mt-4">
+    <div class="jumbotron bg-light p-4 rounded mb-4">
+        <h2>Welcome to EventEase, @Session.CurrentUser!</h2>
+        <p>Browse our corporate and social events below.</p>
+    </div>
+
+    <h3>Upcoming Events</h3>
+    <div class="row">
+        @foreach (var ev in mockEvents)
+        {
+            <div class="col-md-4" @key="ev.Id">
+                <EventCard EventItem="ev" />
+                <p class="text-muted ms-2">Registered Attendees: @Session.GetAttendanceCount(ev.Id)</p>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    private List<Event> mockEvents = new()
+    {
+        new Event { Id = 1, Name = "Tech Innovation Summit", Date = DateTime.Now.AddDays(14), Location = "San Francisco, CA" },
+        new Event { Id = 2, Name = "Corporate Leadership Gala", Date = DateTime.Now.AddDays(30), Location = "Chicago, IL" },
+        new Event { Id = 3, Name = "Annual Charity Fundraiser", Date = DateTime.Now.AddDays(45), Location = "New York, NY" }
+    };
+
+    protected override void OnInitialized()
+    {
+        Session.OnStateChanged += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        Session.OnStateChanged -= StateHasChanged;
+    }
+}
