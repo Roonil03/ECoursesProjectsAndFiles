@@ -1,0 +1,67 @@
+@page "/fetchproducts"
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Text.Json
+@inject HttpClient HttpClient
+
+<h3>Product List</h3>
+
+<ul>
+   @if (products != null)
+    {
+        foreach (var product in products)
+        {
+            <li>@product.Name - $@product.Price (@(product.Category?.Name ?? "Uncategorized"))</li>
+        }
+    }
+    else if (hasError)
+    {
+        <li class="text-danger">Failed to safely retrieve inventory data records. Please verify connection strings.</li>
+    }
+    else
+    {
+        <li>Loading...</li>
+    }
+</ul>
+
+@code {
+    private Product[]? products;
+    private bool hasError = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var response = await HttpClient.GetAsync("http://localhost:5000/api/productlist");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            
+            var options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+            
+            products = JsonSerializer.Deserialize<Product[]>(json, options);
+        }
+        catch (Exception ex)
+        {
+            hasError = true;
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public double Price { get; set; }
+        public int Stock { get; set; }
+        public CategoryClass? Category { get; set; }
+    }
+
+    public class CategoryClass
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+    }
+}

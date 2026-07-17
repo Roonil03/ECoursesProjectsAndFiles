@@ -1,0 +1,17 @@
+# .NET Core Build Artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Development Tools and User Configurations
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# System Artifacts
+.DS_Store
+Thumbs.db
+log.txt
