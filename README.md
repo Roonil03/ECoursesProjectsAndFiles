@@ -115,3 +115,7 @@ by [Amazon](https://www.aboutamazon.com/about-us) on Coursera
 # 29. [Microsoft Full-Stack Developer Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-full-stack-developer)
 by [Microsoft](https://www.microsoft.com/en-ca/about) on Coursera
 - Present in the branch [Microsoft_FullStackDeveloperProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Microsoft_FullStackDeveloperProfCert)
+
+# 30. [Xbox Graphic Designer Professional Certificate](https://www.coursera.org/professional-certificates/xbox-graphic-designer)
+by [Xbox](https://en.wikipedia.org/wiki/Xbox) on Coursera
+- Present in the branch [Xbox_GraphicDesignerProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Xbox_GraphicDesignerProfCert)
