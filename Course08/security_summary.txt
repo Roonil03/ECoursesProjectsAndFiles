@@ -1,0 +1,20 @@
+SafeVault - Security Implementation Summary
+
+1. Input Validation and XSS Protection:
+- Validated usernames and emails using strict Regular Expressions (`Regex`) to prevent malformed data entry.
+- Leveraged `HtmlEncoder.Default.Encode` in the `SecurityService` to encode any potentially malicious input, successfully neutralizing Cross-Site Scripting (XSS) threats. Test cases confirm that `<script>` tags are sanitized into safe HTML entities.
+
+2. SQL Injection (SQLi) Prevention:
+- Validated inputs strictly *before* interacting with the database layer.
+- Enforced a parameter-like architecture in the `DatabaseRepository` by separating the logic of validating input from the persistence execution, neutralizing malicious SQL payloads like `' OR '1'='1`.
+
+3. Authentication & Credential Storage:
+- Implemented secure password hashing via `SHA256`. 
+- Ensured that raw plaintext passwords are never stored or logged, preventing credential harvesting if the database layer is compromised.
+
+4. Role-Based Access Control (RBAC):
+- Implemented the `AuthorizationManager` to explicitly evaluate the `Role` attribute.
+- Created segregated role privileges to ensure that standard users ("User") are completely restricted from sensitive areas like the Admin Dashboard, validating least-privilege principles.
+
+5. System Architecture Guardrails:
+- Used a comprehensive `.gitignore` configuration to prevent sensitive local database files (`*.db`), temporary user configuration states, and binary builds from inadvertently leaking into version control repositories.
