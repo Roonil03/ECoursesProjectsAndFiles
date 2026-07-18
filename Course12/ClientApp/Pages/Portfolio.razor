@@ -1,0 +1,83 @@
+@page "/portfolio"
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient HttpClient
+
+<h3>SkillSnap Developer Portfolio</h3>
+
+@if (profile != null)
+{
+    <div class="card p-3 my-3">
+        <h4>@profile.FullName</h4>
+        <p><em>@profile.Bio</em></p>
+        
+        <h5>Skills Tracker</h5>
+        <ul>
+            @foreach (var skill in profile.Skills)
+            {
+                <li>@skill</li>
+            }
+        </ul>
+    </div>
+
+    <div class="border p-3 mt-4">
+        <h5>Add New Skill Metric</h5>
+        <input type="text" @bind="newSkill" class="form-control d-inline-block w-50" placeholder="Enter skill..." />
+        <button class="btn btn-primary ml-2" @onclick="AddSkill">Submit Skill Update</button>
+        
+        @if (!string.IsNullOrEmpty(validationError))
+        {
+            <div class="text-danger mt-2">@validationError</div>
+        }
+    </div>
+}
+else
+{
+    <p>Loading application portfolio variables...</p>
+}
+
+@code {
+    private DeveloperProfile? profile;
+    private string newSkill = string.Empty;
+    private string validationError = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        profile = await HttpClient.GetFromJsonAsync<DeveloperProfile>("http://localhost:5000/api/portfolio");
+    }
+
+    private async Task AddSkill()
+    {
+        if (string.IsNullOrWhiteSpace(newSkill))
+        {
+            validationError = "Skill designation cannot be empty.";
+            return;
+        }
+
+        validationError = string.Empty;
+        profile?.Skills.Add(newSkill);
+
+        var response = await HttpClient.PostAsJsonAsync("http://localhost:5000/api/portfolio", profile);
+        if (response.IsSuccessStatusCode)
+        {
+            newSkill = string.Empty;
+            await LoadData();
+        }
+        else
+        {
+            validationError = "Failed to synchronize state context updates with API endpoints.";
+        }
+    }
+
+    public class DeveloperProfile
+    {
+        public string FullName { get; set; } = string.Empty;
+        public string Bio { get; set; } = string.Empty;
+        public List<string> Skills { get; set; } = new();
+    }
+}
