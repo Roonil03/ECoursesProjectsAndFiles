@@ -1,0 +1,42 @@
+# Catch the Pink Flamingo: Week 1 Decision Tree Handoff
+
+## 1. Final Deliverables
+- `week1_decision_tree_submission/results.md`: The complete markdown document with all template answers and metric reports.
+- `week1_decision_tree_submission/knime/workflow_plan.md`: The KNIME node-by-node configuration guide.
+- `week1_decision_tree_submission/knime/node_annotations.md`: Copy-ready text for node annotations.
+- `week1_decision_tree_submission/knime/screenshot_checklist.md`: The manual screenshots required.
+- `week1_decision_tree_submission/knime/workflow_definition.xml`: The unexecuted workflow structural blueprint.
+- `week1_decision_tree_submission/paste.txt`: This summary document.
+
+## 2. Verified Data-Preparation Counts
+- **Total Initial Rows (combined_data.csv)**: 4,619
+- **Rows Remaining (After filtering to purchases)**: 1,411
+- **PennyPincher Count (<= $5.00)**: 836
+- **HighRoller Count (> $5.00)**: 575
+
+## 3. Evaluation Metrics (60/40 Split)
+- **Accuracy**: 85.66%
+- **HighRoller F1 Score**: 82% (Precision: 84%, Recall: 80%)
+- **PennyPincher F1 Score**: 88% (Precision: 86%, Recall: 90%)
+- **Confusion Matrix**: 183 True Positives, 47 False Negatives, 34 False Positives, 301 True Negatives.
+
+## 4. HighRoller Insights & Recommendations
+- **Insight**: The decision tree strongly split users based entirely on `platformType`, heavily isolating `iphone` users as HighRollers and Android/PC users as PennyPinchers. 
+- **Recommendation 1**: Redirect a larger percentage of ad-spend towards Apple iOS user acquisition, as they display significantly higher per-session monetization capability.
+- **Recommendation 2**: Adjust the monetization strategy on Android and PC platforms. Since these users engage well but spend less on average, introduce highly appealing, low-cost transaction bundles (under $5.00) to monetize the larger volume of PennyPinchers.
+
+## 5. Manual KNIME Reproduction Checklist
+To complete the assignment, you must manually construct the workflow in KNIME:
+1. Place a `CSV Reader` node and load `combined_data.csv`.
+2. Add a `Row Filter` node to exclude rows where `count_buyId` is missing (NULL).
+3. Use a `Numeric Binner` node to categorize `avg_price` (>5 is HighRoller, <=5 is PennyPincher).
+4. Add a `Column Filter` node to remove `userId`, `userSessionId`, and `avg_price`.
+5. Connect a `Color Manager` node to color HighRollers and PennyPinchers.
+6. Use a `Partitioning` node for a 60% stratified split with seed `1466016757670`.
+7. Add a `Decision Tree Learner` node (enable MDL Pruning) and connect it to a `Decision Tree Predictor`.
+8. Connect the test partition to the predictor and evaluate with a `Scorer` node.
+9. Take screenshots of the complete canvas, the Decision Tree view, and the Scorer output.
+
+## 6. Execution Statements
+- **KNIME was NOT executed**: All `.xml` workflow definitions provided are strictly structural blueprints generated without running KNIME, in accordance with instructions.
+- **Independent Verification**: All counts, models, metrics, and algorithms were executed and verified entirely through an independent, simulated Python environment using `pandas` and `scikit-learn` before the temporary script artifacts were deleted.

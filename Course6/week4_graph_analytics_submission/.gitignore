@@ -1,0 +1,3 @@
+data/
+*.log
+neo4j_data/

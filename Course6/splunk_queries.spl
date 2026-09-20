@@ -1,0 +1,54 @@
+// Question 1: Distribution of platformType in user-session.csv
+source="user-session.csv" | stats count by platformType | sort - count
+
+// Question 2: Two most commonly clicked ads from ad-clicks.csv
+source="ad-clicks.csv" | stats count by adCategory | sort - count | head 2
+
+// Question 3: Two most commonly purchased products from buy-clicks.csv
+source="buy-clicks.csv" | stats count by buyId | sort - count | head 2
+
+// Question 4: Average team size from team-assignments.csv
+source="team-assignments.csv" | stats count by team | stats avg(count) as AverageTeamSize
+
+// Question 5: Hit ratio: average isHit in game-clicks.csv
+source="game-clicks.csv" | stats avg(isHit) as HitRatio
+
+// Question 6: Minimum, maximum, and total price in buy-clicks.csv
+source="buy-clicks.csv" | stats min(price) as MinPrice, max(price) as MaxPrice, sum(price) as TotalPurchaseValue
+
+// Question 7: Average teamLevel for sessionType="end" on Windows
+source="user-session.csv" sessionType="end" platformType="windows" | stats avg(teamLevel) as AverageEndingTeamLevel
+
+// Question 8: Average teamLevel for sessionType="end" on iPhone or Mac
+source="user-session.csv" sessionType="end" (platformType="iphone" OR platformType="mac") | stats avg(teamLevel) as AverageEndingTeamLevel
+
+// Question 9: Platforms used by userId=1017
+source="user-session.csv" userId=1017 | stats count by platformType
+
+// Question 10: Android users who completed level 2
+source="level-events.csv" teamLevel=2 eventType="end"
+| rename teamId as team
+| join team [ search source="team-assignments.csv" ]
+| join userId [ search source="user-session.csv" platformType="android" ]
+| stats dc(userId)
+
+// Quiz Question 1: Ad-click revenue at $0.50 per click
+source="ad-clicks.csv" | stats count | eval revenue=count*0.50
+
+// Quiz Question 2: Number of distinct advertisement categories
+source="ad-clicks.csv" | stats dc(adCategory)
+
+// Quiz Question 3: Ad revenue where electronics earns $0.75 per click and every other category earns $0.40
+source="ad-clicks.csv" | eval revenue=if(adCategory=="electronics", 0.75, 0.40) | stats sum(revenue)
+
+// Quiz Question 4: Company revenue from purchases at 2% of price
+source="buy-clicks.csv" | stats sum(price) as total | eval revenue=total*0.02
+
+// Quiz Question 5: Number of distinct purchasable items
+source="buy-clicks.csv" | stats dc(buyId)
+
+// Quiz Question 6: Price of the most expensive item
+source="buy-clicks.csv" | stats max(price)
+
+// Quiz Question 7: buyId purchased most often
+source="buy-clicks.csv" | stats count by buyId | sort - count | head 1
