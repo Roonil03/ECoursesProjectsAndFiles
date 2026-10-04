@@ -119,3 +119,7 @@ by [Microsoft](https://www.microsoft.com/en-ca/about) on Coursera
 # 30. [Xbox Graphic Designer Professional Certificate](https://www.coursera.org/professional-certificates/xbox-graphic-designer)
 by [Xbox](https://en.wikipedia.org/wiki/Xbox) on Coursera
 - Present in the branch [Xbox_GraphicDesignerProfCert](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/Xbox_GraphicDesignerProfCert)
+
+# 31. [Creative Writing Specialization](https://www.coursera.org/organizations/manipal/specializations/creative-writing)
+by [Wesleyan University](https://www.wesleyan.edu/) on Coursera
+- Present in the branch [WesleyanUni_CreativeWritingSpecialization](https://github.com/Roonil03/ECoursesProjectsAndFiles/tree/WesleyanUni_CreativeWritingSpecialization)
